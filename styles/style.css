@@ -18,7 +18,7 @@
 .pageBody {
 	position: relative;
 	height: 1000px;
-	width: 1000px;
+	width: 1200px;
 	background-color: #f9f9f9;
 	margin-right: auto;
 	margin-left: auto;
@@ -30,10 +30,10 @@
 
 #topNavBar {
 	position: absolute;
-		bottom: 93%;
-	height: 75px;
-	width: 1000px;
-	background-color: #e50000;
+		bottom: 95%;
+	height: 50px;
+	width: 1200px;
+	background: linear-gradient(to bottom, #ff0000 0%,#b50000 100%);
 	box-shadow: 0px 10px 26px -6px rgba(0,0,0,0.75);
 	z-index: 51;
 	
@@ -46,7 +46,7 @@
 		bottom: 1%;
 	height: 800px;
 	width: 150px;
-	background-color: #737373;
+	background: linear-gradient(to bottom, #707070 13%,#5b5b5b 69%);
 	box-shadow: 8px 10px 14px -6px rgba(0,0,0,0.75);
 	z-index: 49;
 }
@@ -55,8 +55,8 @@
 	position: absolute;
 		top: 79%;
 	height: 125px;
-	width: 1000px;
-	background-color: #454545;
+	width: 1200px;
+	background: linear-gradient(to bottom, #383838 4%,#3a3a3a 91%);
 	margin-bottom: 100px;
 	box-shadow: 0px -2px 34px -7px rgba(0,0,0,0.75);
 	z-index: 50;
@@ -67,12 +67,12 @@
 #topNavButton1 {
 	position: relative;
 		margin-bottom: 2.5px;
-		margin-left: 30px;
+		margin-left: 200px;
 	float: left;
 	padding: 20px;
 	height: 23px;
 	width: 128px;
-	background-color: #454545;
+	background: linear-gradient(to bottom, #6b6b6b 1%,#333333 100%);
 	z-index: 52;
 	border:1px solid;
 	text-align: center;
@@ -84,9 +84,9 @@
 		margin-left: 20px;
 	float: left;
 	padding: 20px;
-	height: 23px;
+	height: 15px;
 	width: 128px;
-	background-color: #454545;
+	background: linear-gradient(to bottom, #6b6b6b 1%,#333333 100%);
 	z-index: 53;
 	border:1px solid;
 	text-align: center;
@@ -100,7 +100,7 @@
 	padding: 20px;
 	height: 23px;
 	width: 128px;
-	background-color: #454545;
+	background: linear-gradient(to bottom, #6b6b6b 1%,#333333 100%);
 	z-index: 54;
 	border:1px solid;
 	text-align: center;
@@ -114,7 +114,7 @@
 	padding: 20px;
 	height: 23px;
 	width: 128px;
-	background-color: #454545;
+	background: linear-gradient(to bottom, #6b6b6b 1%,#333333 100%);
 	z-index: 53;
 	border:1px solid;
 	text-align: center;
@@ -128,7 +128,7 @@
 	padding: 20px;
 	height: 23px;
 	width: 128px;
-	background-color: #454545;
+	background: linear-gradient(to bottom, #6b6b6b 1%,#333333 100%);
 	z-index: 53;
 	border:1px solid;
 	text-align: center;
@@ -145,7 +145,7 @@
 	padding: 10px;
 	height: 23px;
 	width: 110px;
-	background-color: #454545;
+	background: linear-gradient(to bottom, #6b6b6b 1%,#333333 100%);
 	z-index: 53;
 	border:1px solid;
 }
@@ -165,7 +165,6 @@
 	height: 350px;
 	width: 790px;
 	background-color: #efefef;
-	box-shadow: inset 10px 10px 19px -6px rgba(0,0,0,0.75);
 }
 
 #textBody2 {
@@ -175,7 +174,6 @@
 	height: 680px;
 	width: 550px;
 	background-color: #efefef;
-	box-shadow: inset 10px 10px 19px -6px rgba(0,0,0,0.75);
 }
 
 /* Images */
