@@ -3,15 +3,21 @@
 <html>
 	<head>
 	<link rel="stylesheet" type="text/css" href="styles/style.css"/>
-	</head>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<title>Why PC Gaming, News, info</title>
 	<meta name="description" content="PC vs Console ? We explain why the PC wins in all aspects of gaming">
+	<script type="text/javascript" src="script/jquery.js"></script>
+	<script type="text/javascript" src="script/buttons.js"></script>
+	<script type="text/javascript" src="script/sidePanelText.js"></script>
+	</head>
+
 	
 <body>
 <!-- Main body style -->
 <div class="pageBody">
 	<div class="navBars">
-		<div id="topNavBar"></div>
+		<div id="topNavBar">
+			<img id="logo" src="img/logo.png"/>
 			<div class="button" id="topNavButton1">
 				<a class="navLink" href="ypcgaming.html">Home</a>
 			</div>
@@ -27,20 +33,22 @@
 			<div class="button" id="topNavButton5">
 				<a class="navLink" href="about.html">About</a>
 			</div>
+		</div>
 		<div id="leftNavBar"></div>
+			<!-- Vertical Orientated Text -->
+			<div class="rotate" id="vertText1">
+				<h2>HOME</h2>
+			</div>
 		<div id="bottomNavBar"></div>
 	</div>
 	<div id="textBody1"></div>
 	<!-- Images -->
 	<div class=homeImage1>
-		<img id=homeImage1 src="../images/pc2.png">
+		<img id=homeImage1 src="img/pc2.png">
 	</div>
 	<div class=homeImage2>
-		<img id=homeImage2 src="../images/pc1.jpg">
+		<img id=homeImage2 src="img/pc1.jpg">
 	</div>
 </div>
-<script type="text/javascript" src="script/buttons.js"></script>
-<script type="text/javascript" src="script/test.js"></script>
-<script type="text/javascript" src="script/jquery-1.11.1.js"></script>	
 </body>
 </html>

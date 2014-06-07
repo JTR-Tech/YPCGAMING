@@ -1,16 +1,32 @@
 .navLink {
 	margin-left: auto;
 	margin-right: auto;
-	font-family: calibri;
+	font-family: Oswald;
 	color: white;
 	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
+	vertical-align: inherit;
 }
 
 .navLink a {
 	text-align: center;
 
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff') format('woff'), /* Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+#logo {
+	position: absolute;
+		top: 5%;
+		left: 2%;
 }
 
 
@@ -45,7 +61,7 @@
 		top: 5%;
 		bottom: 1%;
 	height: 800px;
-	width: 150px;
+	width: 0px;
 	background: linear-gradient(to bottom, #707070 13%,#5b5b5b 69%);
 	box-shadow: 8px 10px 14px -6px rgba(0,0,0,0.75);
 	z-index: 49;
@@ -159,7 +175,8 @@
 .subLink {
 	color: white;
 	text-decoration: none;
-	font-family: calibri;
+	font-family: Oswald;
+	font-size: 15px;
 }
 
 /*Main Text Body*/
@@ -210,3 +227,13 @@
 	height: 360px;
 	background-color: #f9f9f9;
 }
+
+/*Vertical Text*/
+
+.rotate {
+	  -webkit-transform: rotate(-90deg);
+	  -moz-transform: rotate(-90deg);
+	  -ms-transform: rotate(-90deg);
+	  -o-transform: rotate(-90deg);
+	  transform: rotate(-90deg);
+  }

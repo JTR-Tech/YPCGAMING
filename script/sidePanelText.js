@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("#leftNavBar").animate({
-		"width": "150px",
+		"width": "50px",
 	}, 1000);
 });
 
