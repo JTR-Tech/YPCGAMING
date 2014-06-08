@@ -183,11 +183,20 @@
 
 #textBody1 {
 	position: absolute;
-		margin-left:170px;
+		margin-left:150px;
 		margin-top: 85px;
 	height: 350px;
-	width: 790px;
+	width: 950px;
 	background-color: #efefef;
+}
+
+.textBlock {
+	font-family: Roboto;
+	text-align: center;
+}
+
+.textBlock p {
+	font-size: 26px;
 }
 
 #textBody2 {
@@ -213,7 +222,7 @@
 .homeImage1 {
 	position: absolute;
 		margin-top: 440px;
-		margin-left: 170px;
+		margin-left: 235px;
 	width: 360px;
 	height: 360px;
 	background-color: #f9f9f9;
@@ -228,12 +237,29 @@
 	background-color: #f9f9f9;
 }
 
-/*Vertical Text*/
+#leftHomeLogo {
+	position: relative;
+	margin-top: 50%;
+	margin-bottom: 50%;
+	z-index: 70;
+}
 
-.rotate {
-	  -webkit-transform: rotate(-90deg);
-	  -moz-transform: rotate(-90deg);
-	  -ms-transform: rotate(-90deg);
-	  -o-transform: rotate(-90deg);
-	  transform: rotate(-90deg);
-  }
+#leftPCVSLogo {
+	position: relative;
+	margin-top: 150px ;
+	margin-left: 30% ;
+	z-index: 50;
+}
+
+#leftCommunityLogo {
+	position: relative;
+	margin-top: 500px;
+	z-index: 50;
+}
+
+#leftBuildingLogo {
+	position: relative;
+	margin-top: 300px;
+	margin-left: 30%;
+	z-index: 50;
+}

@@ -5,5 +5,9 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+	$(".leftLogoScroll").hide().fadeIn(2000);
+});
+
+$(document).ready(function(){
 	$(".subButton").hide().fadeIn(2000);
 });
