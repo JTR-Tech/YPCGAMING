@@ -107,18 +107,18 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$('#leftNavButton1').mouseover(function(){
-		if( $(".navLink").css("font-size") == '20px') {
+		if( $(".subLink").css("font-size") == '15px') {
 			$('#leftNavButton1').css({'width': '115px', 'background': 'linear-gradient(to bottom, #797979 1%,#333333 100%'});
-			$('#leftNavButton1 > .subLink').css({'font-size': '23px'});
+			$('#leftNavButton1 > .subLink').css({'font-size': '18px'});
 		} else {
 			$('#leftNavButton1').css({'width': '115px', 'background': 'linear-gradient(to bottom, #797979 1%,#333333 100%'});
 			$('#leftNavButton1 > .subLink').css({'font-size': '12px'});
 		};
 	});
 	$('#leftNavButton1').mouseout(function(){
-		if( $(".subLink").css("font-size") > "15px") {
+		if( $(".subLink").css("font-size") > '10px') {
 			$('#leftNavButton1').css({'width': '110px', 'background': 'linear-gradient(to bottom, #6b6b6b 1%,#333333 100%'});
-			$('#leftNavButton1 > .subLink').css({'font-size': '23px'});
+			$('#leftNavButton1 > .subLink').css({'font-size': '18px'});
 		} else {
 			$('#leftNavButton1').css({'width': '115px', 'background': 'linear-gradient(to bottom, #797979 1%,#333333 100%'});
 			$('#leftNavButton1 > .subLink').css({'font-size': '12px'});
