@@ -1,0 +1,8 @@
+$(document).ready(function(){
+	if (document.getElementById('fName').value == "") {
+		alert('Please enter a name (a fake one will do)');
+	} if (document.getElementById('fEmail').value == "") {
+		alert('Please enter a Email address');	
+	}
+		
+});
